@@ -1,0 +1,50 @@
+{
+    "app_id": "9283bab50b8a8d8b83e093dcd6f801",
+    "collection_id": "9ed5feb80b84c39be68bb0cda012",
+    "items": [
+        {
+            "item_id": "30c251c3-895e-474d-b129-799a7ae3a67c",
+            "name": "yolo"
+        },
+        {
+            "item_id": "34f6554e-8e6b-457a-bef7-47b5f73ac3f4",
+            "name": "yo"
+        },
+        {
+            "item_id": "7db393e0-d34b-4ebc-94dd-3d9892e39bd0",
+            "name": "Bob"
+        },
+        {
+            "item_id": "8df5beef-3942-4bd7-96f6-7d1359333450",
+            "name": "hahah"
+        },
+        {
+            "item_id": "afc1c34a-eb05-4603-ab31-d3579a062a1a",
+            "name": "sanket"
+        },
+        {
+            "item_id": "bdb15200-c400-4d69-9509-32b78420d370",
+            "name": ""
+        },
+        {
+            "item_id": "de2a406b-8581-4316-a9c9-524579f9fb18",
+            "name": "123"
+        }
+    ],
+    "name": "test",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
