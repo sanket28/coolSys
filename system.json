@@ -1,0 +1,27 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "services",
+                    "asset_id": "",
+                    "deployment": "test",
+                    "member": "test_deployment_edge_group",
+                    "sync": true
+                }
+            ],
+            "description": "",
+            "edges": [
+                "cool1"
+            ],
+            "name": "test"
+        }
+    ],
+    "description": "",
+    "messaging_url": "127.0.0.1:1883",
+    "name": "coolSys",
+    "platform_url": "http://127.0.0.1:9000",
+    "system_key": "9283bab50b8a8d8b83e093dcd6f801",
+    "system_secret": ""
+}
