@@ -1,0 +1,17 @@
+{
+    "event_definition": {
+        "def_keys": [
+            "collectionId",
+            "collectionName"
+        ],
+        "def_module": "Data",
+        "def_name": "ItemCreated",
+        "visibility": true
+    },
+    "key_value_pairs": {
+        "collectionId": "9ed5feb80b84c39be68bb0cda012",
+        "collectionName": "test"
+    },
+    "name": "test",
+    "service_name": "deptest"
+}
