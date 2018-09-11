@@ -1,0 +1,2043 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "xs",
+        "currentBreakpointsForWidgets": {
+            "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b": "xxs",
+            "129851f4-e531-447c-bdd9-563e554865e8": "lg",
+            "295fdd95-b468-44bc-b746-7b8e7dad0aa7": "lg",
+            "306ea7ca-0351-4234-85eb-e1963ddbc5bf": "xxs",
+            "30c9520a-2599-45ac-bcc5-708c4cbec4ac": "lg",
+            "98b580cb-be32-45a0-894d-664c178d5fd5": "lg",
+            "c25fb8d5-5bea-4cd2-ba72-071d2925daae": "lg",
+            "dcec67b3-c222-4309-9e79-e4b2c57c8774": "xxs",
+            "f1d84605-4373-401e-bbeb-85bf81c18d32": "lg",
+            "fcb84a0e-5b22-462f-bb77-c7883b1caf78": "lg"
+        },
+        "datasources": {
+            "46f52d56-e9d1-4243-be65-e4fe09401e54": {
+                "id": "46f52d56-e9d1-4243-be65-e4fe09401e54",
+                "name": "edgeList",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "refresh_interval": 0
+                },
+                "type": "CB_EDGE_LIST"
+            },
+            "49000dcb-335d-49cc-ab34-2fe3650fad0a": {
+                "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                "name": "selectedEdgeMetrics",
+                "settings": {
+                    "CALL_ON_LOAD": false,
+                    "EDGE_NAME": "newEdge",
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "refresh_interval": 0
+                },
+                "type": "CB_EDGE_METRICS"
+            },
+            "5df1426c-8e32-4d5f-827d-316b0f67c61e": {
+                "id": "5df1426c-8e32-4d5f-827d-316b0f67c61e",
+                "name": "selectedEdge",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            }
+        },
+        "externalScripts": [
+            {
+                "promise": {},
+                "shouldBlockAllWidgets": false,
+                "url": "https://use.fontawesome.com/5623e55c0f.js"
+            }
+        ],
+        "flyoutWidgetLayout": {
+            "lg": [
+                {
+                    "h": 9,
+                    "i": "f78c0825-55bc-438c-802c-96baa21b854c",
+                    "minH": 3,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": [
+                {
+                    "h": 46,
+                    "i": "f78c0825-55bc-438c-802c-96baa21b854c",
+                    "minH": 3,
+                    "moved": false,
+                    "static": false,
+                    "w": 2,
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 52,
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 84,
+                    "x": 157,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "9c064df8-f032-4655-ac2e-1486356081e7",
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "d3e122e6-d9d6-4502-aac8-05d4dccb72bb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "89f5bfd6-08bf-4b15-abb8-948f1def9e26",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [
+                    {
+                        "h": 9,
+                        "i": "9c064df8-f032-4655-ac2e-1486356081e7",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "9c064df8-f032-4655-ac2e-1486356081e7",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 10,
+                        "i": "d3e122e6-d9d6-4502-aac8-05d4dccb72bb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "89f5bfd6-08bf-4b15-abb8-948f1def9e26",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 9,
+                        "i": "9c064df8-f032-4655-ac2e-1486356081e7",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 9,
+                        "i": "d3e122e6-d9d6-4502-aac8-05d4dccb72bb",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "89f5bfd6-08bf-4b15-abb8-948f1def9e26",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "129851f4-e531-447c-bdd9-563e554865e8": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "9edf09f7-39c4-4914-b01c-6b8831ee8878",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "295fdd95-b468-44bc-b746-7b8e7dad0aa7": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "ae88e7a3-c0a9-4c52-bf74-f5e8e0b597f7",
+                        "minH": 3,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "306ea7ca-0351-4234-85eb-e1963ddbc5bf": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "7b4d8561-6de3-4bf1-996e-ec6e288fa801",
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "10aa6123-c2de-4ad3-a879-21549bd24049",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 18
+                    },
+                    {
+                        "h": 9,
+                        "i": "aa7fede0-de7c-4dd8-a914-cab5c22ea91c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 1,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "7b4d8561-6de3-4bf1-996e-ec6e288fa801",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 10,
+                        "i": "10aa6123-c2de-4ad3-a879-21549bd24049",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "aa7fede0-de7c-4dd8-a914-cab5c22ea91c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 9,
+                        "i": "7b4d8561-6de3-4bf1-996e-ec6e288fa801",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 9,
+                        "i": "10aa6123-c2de-4ad3-a879-21549bd24049",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "aa7fede0-de7c-4dd8-a914-cab5c22ea91c",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "30c9520a-2599-45ac-bcc5-708c4cbec4ac": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "21719d59-abdd-4851-9c7f-2ccd653f4208",
+                        "minH": 3,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "98b580cb-be32-45a0-894d-664c178d5fd5": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "2c82260f-a47f-4cad-9627-94790635939f",
+                        "minH": 3,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "c25fb8d5-5bea-4cd2-ba72-071d2925daae": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "3820e08f-d819-4b60-8c2a-2664133b04ad",
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "dcec67b3-c222-4309-9e79-e4b2c57c8774": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "6655330b-c98c-4126-860b-f20daab7a88e",
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "0140c36a-7996-46ef-9bf6-47315d2a4c0f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 5,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "3dbbc7d1-46ee-4011-9dc6-b24f94542ee3",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [
+                    {
+                        "h": 9,
+                        "i": "6655330b-c98c-4126-860b-f20daab7a88e",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 10,
+                        "i": "0140c36a-7996-46ef-9bf6-47315d2a4c0f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "3dbbc7d1-46ee-4011-9dc6-b24f94542ee3",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 9,
+                        "i": "6655330b-c98c-4126-860b-f20daab7a88e",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 9,
+                        "i": "0140c36a-7996-46ef-9bf6-47315d2a4c0f",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 12
+                    },
+                    {
+                        "h": 3,
+                        "i": "3dbbc7d1-46ee-4011-9dc6-b24f94542ee3",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            "f1d84605-4373-401e-bbeb-85bf81c18d32": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "34d4f22a-95a9-468c-ae13-1d0c77183c63",
+                        "minH": 3,
+                        "w": 13,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            },
+            "fcb84a0e-5b22-462f-bb77-c7883b1caf78": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "7b77ccaa-b3ed-4279-9123-15a08fb02d9c",
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 1,
+                        "i": "6a34293c-5d85-47e0-89b3-9fff40fb7d10",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9602eb9a-4367-42ae-8fd9-882835fe6e86",
+                        "moved": false,
+                        "static": false,
+                        "w": 9,
+                        "x": 3,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "a21de3fa-66be-4f65-8b1d-1628830a755b",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "fd714af4-b7da-4f96-b776-ecea6ce6d718",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "8407487c-7fd1-4337-a3d9-7ea482795148",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 8,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "f9a48752-cd71-4320-900a-381bb2a5aff3",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 1
+                    },
+                    {
+                        "h": 2,
+                        "i": "dadd5298-3169-433e-8756-b4408163be15",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 4,
+                        "y": 6
+                    },
+                    {
+                        "h": 2,
+                        "i": "68377829-60e8-4468-9b57-d599b2a86671",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 8,
+                        "y": 6
+                    },
+                    {
+                        "h": 2,
+                        "i": "0fb03f5d-a00e-4476-9f94-2c48e786572a",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 6
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 1,
+                        "i": "6a34293c-5d85-47e0-89b3-9fff40fb7d10",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9602eb9a-4367-42ae-8fd9-882835fe6e86",
+                        "moved": false,
+                        "static": false,
+                        "w": 7,
+                        "x": 3,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "a21de3fa-66be-4f65-8b1d-1628830a755b",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "fd714af4-b7da-4f96-b776-ecea6ce6d718",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "8407487c-7fd1-4337-a3d9-7ea482795148",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 6,
+                        "y": 3
+                    },
+                    {
+                        "h": 2,
+                        "i": "f9a48752-cd71-4320-900a-381bb2a5aff3",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 1
+                    },
+                    {
+                        "h": 2,
+                        "i": "dadd5298-3169-433e-8756-b4408163be15",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 6
+                    },
+                    {
+                        "h": 2,
+                        "i": "68377829-60e8-4468-9b57-d599b2a86671",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 6
+                    },
+                    {
+                        "h": 2,
+                        "i": "0fb03f5d-a00e-4476-9f94-2c48e786572a",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 6,
+                        "y": 6
+                    }
+                ],
+                "sm": [
+                    {
+                        "h": 2,
+                        "i": "6a34293c-5d85-47e0-89b3-9fff40fb7d10",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9602eb9a-4367-42ae-8fd9-882835fe6e86",
+                        "moved": false,
+                        "static": false,
+                        "w": 6,
+                        "x": 0,
+                        "y": 2
+                    },
+                    {
+                        "h": 3,
+                        "i": "a21de3fa-66be-4f65-8b1d-1628830a755b",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 5
+                    },
+                    {
+                        "h": 3,
+                        "i": "fd714af4-b7da-4f96-b776-ecea6ce6d718",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 5
+                    },
+                    {
+                        "h": 3,
+                        "i": "8407487c-7fd1-4337-a3d9-7ea482795148",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 8
+                    },
+                    {
+                        "h": 2,
+                        "i": "f9a48752-cd71-4320-900a-381bb2a5aff3",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "dadd5298-3169-433e-8756-b4408163be15",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 0,
+                        "y": 11
+                    },
+                    {
+                        "h": 2,
+                        "i": "68377829-60e8-4468-9b57-d599b2a86671",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 11
+                    },
+                    {
+                        "h": 3,
+                        "i": "0fb03f5d-a00e-4476-9f94-2c48e786572a",
+                        "moved": false,
+                        "static": false,
+                        "w": 3,
+                        "x": 3,
+                        "y": 8
+                    }
+                ],
+                "xs": [
+                    {
+                        "h": 2,
+                        "i": "6a34293c-5d85-47e0-89b3-9fff40fb7d10",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 3,
+                        "i": "9602eb9a-4367-42ae-8fd9-882835fe6e86",
+                        "moved": false,
+                        "static": false,
+                        "w": 4,
+                        "x": 0,
+                        "y": 2
+                    },
+                    {
+                        "h": 3,
+                        "i": "a21de3fa-66be-4f65-8b1d-1628830a755b",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 5
+                    },
+                    {
+                        "h": 3,
+                        "i": "fd714af4-b7da-4f96-b776-ecea6ce6d718",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 5
+                    },
+                    {
+                        "h": 3,
+                        "i": "8407487c-7fd1-4337-a3d9-7ea482795148",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 8
+                    },
+                    {
+                        "h": 2,
+                        "i": "f9a48752-cd71-4320-900a-381bb2a5aff3",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 0
+                    },
+                    {
+                        "h": 2,
+                        "i": "dadd5298-3169-433e-8756-b4408163be15",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 11
+                    },
+                    {
+                        "h": 2,
+                        "i": "68377829-60e8-4468-9b57-d599b2a86671",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 11
+                    },
+                    {
+                        "h": 3,
+                        "i": "0fb03f5d-a00e-4476-9f94-2c48e786572a",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 2,
+                        "y": 8
+                    }
+                ],
+                "xxs": [
+                    {
+                        "h": 1,
+                        "i": "6a34293c-5d85-47e0-89b3-9fff40fb7d10",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 4,
+                        "i": "9602eb9a-4367-42ae-8fd9-882835fe6e86",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 3
+                    },
+                    {
+                        "h": 3,
+                        "i": "a21de3fa-66be-4f65-8b1d-1628830a755b",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 7
+                    },
+                    {
+                        "h": 3,
+                        "i": "fd714af4-b7da-4f96-b776-ecea6ce6d718",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 10
+                    },
+                    {
+                        "h": 3,
+                        "i": "8407487c-7fd1-4337-a3d9-7ea482795148",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 13
+                    },
+                    {
+                        "h": 2,
+                        "i": "f9a48752-cd71-4320-900a-381bb2a5aff3",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 1
+                    },
+                    {
+                        "h": 2,
+                        "i": "dadd5298-3169-433e-8756-b4408163be15",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 19
+                    },
+                    {
+                        "h": 2,
+                        "i": "68377829-60e8-4468-9b57-d599b2a86671",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 21
+                    },
+                    {
+                        "h": 3,
+                        "i": "0fb03f5d-a00e-4476-9f94-2c48e786572a",
+                        "moved": false,
+                        "static": false,
+                        "w": 2,
+                        "x": 0,
+                        "y": 16
+                    }
+                ]
+            }
+        },
+        "panes": {
+            "0fb03f5d-a00e-4476-9f94-2c48e786572a": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "0fb03f5d-a00e-4476-9f94-2c48e786572a",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "129851f4-e531-447c-bdd9-563e554865e8",
+                    "tabIds": [
+                        "f1d84605-4373-401e-bbeb-85bf81c18d32",
+                        "129851f4-e531-447c-bdd9-563e554865e8"
+                    ],
+                    "tabTitles": {
+                        "129851f4-e531-447c-bdd9-563e554865e8": "logs - std err\u003cbr\u003e",
+                        "f1d84605-4373-401e-bbeb-85bf81c18d32": "Logs - std out"
+                    },
+                    "tabbed": true
+                },
+                "themeType": "primary"
+            },
+            "68377829-60e8-4468-9b57-d599b2a86671": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "68377829-60e8-4468-9b57-d599b2a86671",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "295fdd95-b468-44bc-b746-7b8e7dad0aa7",
+                    "tabIds": [
+                        "295fdd95-b468-44bc-b746-7b8e7dad0aa7"
+                    ],
+                    "tabTitles": {
+                        "295fdd95-b468-44bc-b746-7b8e7dad0aa7": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "6a34293c-5d85-47e0-89b3-9fff40fb7d10": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "6a34293c-5d85-47e0-89b3-9fff40fb7d10",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "fcb84a0e-5b22-462f-bb77-c7883b1caf78",
+                    "tabIds": [
+                        "fcb84a0e-5b22-462f-bb77-c7883b1caf78"
+                    ],
+                    "tabTitles": {
+                        "fcb84a0e-5b22-462f-bb77-c7883b1caf78": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "8407487c-7fd1-4337-a3d9-7ea482795148": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "8407487c-7fd1-4337-a3d9-7ea482795148",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "dcec67b3-c222-4309-9e79-e4b2c57c8774",
+                    "tabIds": [
+                        "dcec67b3-c222-4309-9e79-e4b2c57c8774"
+                    ],
+                    "tabTitles": {
+                        "dcec67b3-c222-4309-9e79-e4b2c57c8774": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "9602eb9a-4367-42ae-8fd9-882835fe6e86": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "9602eb9a-4367-42ae-8fd9-882835fe6e86",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "c25fb8d5-5bea-4cd2-ba72-071d2925daae",
+                    "tabIds": [
+                        "c25fb8d5-5bea-4cd2-ba72-071d2925daae"
+                    ],
+                    "tabTitles": {
+                        "c25fb8d5-5bea-4cd2-ba72-071d2925daae": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "a21de3fa-66be-4f65-8b1d-1628830a755b": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "a21de3fa-66be-4f65-8b1d-1628830a755b",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b",
+                    "tabIds": [
+                        "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b"
+                    ],
+                    "tabTitles": {
+                        "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "dadd5298-3169-433e-8756-b4408163be15": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "dadd5298-3169-433e-8756-b4408163be15",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "30c9520a-2599-45ac-bcc5-708c4cbec4ac",
+                    "tabIds": [
+                        "30c9520a-2599-45ac-bcc5-708c4cbec4ac"
+                    ],
+                    "tabTitles": {
+                        "30c9520a-2599-45ac-bcc5-708c4cbec4ac": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "f9a48752-cd71-4320-900a-381bb2a5aff3": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "f9a48752-cd71-4320-900a-381bb2a5aff3",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "98b580cb-be32-45a0-894d-664c178d5fd5",
+                    "tabIds": [
+                        "98b580cb-be32-45a0-894d-664c178d5fd5"
+                    ],
+                    "tabTitles": {
+                        "98b580cb-be32-45a0-894d-664c178d5fd5": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            },
+            "fd714af4-b7da-4f96-b776-ecea6ce6d718": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "fd714af4-b7da-4f96-b776-ecea6ce6d718",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "306ea7ca-0351-4234-85eb-e1963ddbc5bf",
+                    "tabIds": [
+                        "306ea7ca-0351-4234-85eb-e1963ddbc5bf"
+                    ],
+                    "tabTitles": {
+                        "306ea7ca-0351-4234-85eb-e1963ddbc5bf": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "0140c36a-7996-46ef-9bf6-47315d2a4c0f": {
+                "externalScripts": [],
+                "id": "0140c36a-7996-46ef-9bf6-47315d2a4c0f",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "let edge_key;\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop;\n}\n\nif (edge_key) {\n    const memHistory = this.datasource.history[edge_key][\"memUsed(%)\"];\n    const totalMem = this.datasource.history[edge_key][\"totalMem(GB)\"];\n    let output = [];\n    \n    $.each(memHistory, function (propName, value) {\n        const obj = {\n            timestamp: propName,\n            memUsed: totalMem * (value/100)\n        };\n        output.push(obj);\n    });\n    \n    return output;\n}"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "lineColors": [
+                        {
+                            "stroke": "#6E8592"
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "dataKey": "memUsed",
+                            "legendType": "square",
+                            "name": "memUsed(GB)"
+                        }
+                    ],
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showDots": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "dcec67b3-c222-4309-9e79-e4b2c57c8774",
+                "type": "LINE_CHART_WIDGET_COMPONENT"
+            },
+            "10aa6123-c2de-4ad3-a879-21549bd24049": {
+                "externalScripts": [],
+                "id": "10aa6123-c2de-4ad3-a879-21549bd24049",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "let edge_key;\nfor (let prop in this.datasource[\"history\"]){\n    edge_key = prop;\n}\nif(edge_key) {\n    const cpuHistory = this.datasource.history[edge_key][\"cpu(%)\"];\n    let output = [];\n    \n    $.each(cpuHistory, function (propName, value) {\n        const obj = {\n            timestamp: propName,\n            cpuUsage: value\n        };\n        output.push(obj);\n    });\n    \n    return output;\n}"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "lineColors": [
+                        {
+                            "stroke": "#6E8592"
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "dataKey": "cpuUsage",
+                            "legendType": "square"
+                        }
+                    ],
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showDots": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "timestamp",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "306ea7ca-0351-4234-85eb-e1963ddbc5bf",
+                "type": "LINE_CHART_WIDGET_COMPONENT"
+            },
+            "21719d59-abdd-4851-9c7f-2ccd653f4208": {
+                "externalScripts": [],
+                "id": "21719d59-abdd-4851-9c7f-2ccd653f4208",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n",
+                                "HTML": "\u003cdiv id=\"trigger\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nlet edge_key;\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop\n}\nif (edge_key) {\n    const triggers = this.datasource.stats[edge_key].triggered;\n\n    const container = $(\"\u003cdiv style='margin-top: auto; margin-bottom: auto; height: 100%; padding:5px;'\u003e\u003c/div\u003e\");\n    container.append($(\"\u003ch2\u003e\").html(\"\u003ci class='fa fa-cogs' aria-hidden='true' style='margin-right:10px;'\u003e\u003c/i\u003eTriggers\").css({\"text-align\": \"center\"}).addClass(\"section-title\"));\n    container.append($(\"\u003cdiv\u003e\").html(\"Backlog: \u003cspan style='float:right;margin-right:30px;'\u003e\" + triggers.backlog + \"\u003c/span\u003e\").css({\"text-align\": \"left\", \"font-size\": \"25px\", \"padding-top\": \"15px\", \"margin-left\": \"30px\"}));\n    container.append($(\"\u003cdiv\u003e\").html(\"Dropped: \u003cspan style='float:right;margin-right:30px;'\u003e\" + triggers.dropped + \"\u003c/span\u003e\").css({\"text-align\": \"left\", \"font-size\": \"25px\", \"margin-left\": \"30px\"}));\n    container.append($(\"\u003cdiv\u003e\").html(\"Failed: \u003cspan style='float:right;margin-right:30px;'\u003e\" + triggers.failed + \"\u003c/span\u003e\").css({\"text-align\": \"left\", \"font-size\": \"25px\", \"margin-left\": \"30px\"}));\n    container.append($(\"\u003cdiv\u003e\").html(\"Succeeded: \u003cspan style='float:right;margin-right:30px;'\u003e\" + triggers.succeeded + \"\u003c/span\u003e\").css({\"text-align\": \"left\", \"font-size\": \"25px\", \"margin-left\": \"30px\"}));\n    \n    const trigger = document.getElementById('trigger')\n    if (trigger.hasChildNodes()) {\n        trigger.innerHTML='';\n        trigger.append(container[0]);\n    } else {\n        trigger.append(container[0])\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "30c9520a-2599-45ac-bcc5-708c4cbec4ac",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "2c82260f-a47f-4cad-9627-94790635939f": {
+                "externalScripts": [],
+                "id": "2c82260f-a47f-4cad-9627-94790635939f",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n",
+                                "HTML": "\u003cdiv id=\"uptime\"\u003e\n    \n\u003c/div\u003e\n\n",
+                                "JavaScript": "//JavaScript\nlet edge_key;\n\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop;\n}\nif (edge_key) {\n    var uptime = this.datasource.stats[edge_key][\"uptime(min)\"];\n    \n    var fullUptimeString = \"\";\n    \n    \n    var hours = uptime.substring(0, uptime.indexOf(\"h\"));\n    \n    var index = 0;\n    if (hours !== \"\") {\n        fullUptimeString += hours + \" hours\";\n        index = uptime.indexOf(\"h\") + 1;\n    }\n    \n    var mins = uptime.substring(index, uptime.indexOf(\"m\"));\n    \n    fullUptimeString += \" \" + mins + \" minutes\";\n    \n    var container = $(\"\u003cdiv style='margin-top: auto; margin-bottom: auto; height: 50%; padding:5px'\u003e\u003c/div\u003e\");\n    var header = $(\"\u003ch2\u003e\").addClass(\"section-title\").html(\"\u003ci class='fa fa-clock-o' aria-hidden='true' style='margin-right:10px;'\u003e\u003c/i\u003eUptime\").css({\"text-align\": \"center\"});\n    container.append(header);\n    container.append($(\"\u003cdiv\u003e\").html(fullUptimeString).css({\"text-align\": \"center\", \"font-size\": \"40px\",\"padding-top\": \"50px\"}));\n    \n    const uptimeContainer = document.getElementById('uptime');\n    if (uptimeContainer.hasChildNodes()) {\n        uptimeContainer.innerHTML='';\n        uptimeContainer.append(container[0]);\n    } else {\n        uptimeContainer.append(container[0]);\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "98b580cb-be32-45a0-894d-664c178d5fd5",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "34d4f22a-95a9-468c-ae13-1d0c77183c63": {
+                "externalScripts": [],
+                "id": "34d4f22a-95a9-468c-ae13-1d0c77183c63",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n",
+                                "HTML": "\u003cdiv id=\"stdout\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nlet edge_key;\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop\n}\n\nif (edge_key) {\n    const stdout = document.getElementById('stdout')\n    if (stdout.hasChildNodes()) {\n        stdout.innerHTML = '';\n        stdout.append(this.datasource.logs[edge_key].stdout)\n    } else {\n        stdout.append(this.datasource.logs[edge_key].stdout);\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "f1d84605-4373-401e-bbeb-85bf81c18d32",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "3820e08f-d819-4b60-8c2a-2664133b04ad": {
+                "externalScripts": [],
+                "id": "3820e08f-d819-4b60-8c2a-2664133b04ad",
+                "props": {
+                    "dataType": "DYNAMIC_DATA_TYPE",
+                    "force_data": [
+                        "STATIC_DATA_TYPE",
+                        "DYNAMIC_DATA_TYPE"
+                    ],
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "5df1426c-8e32-4d5f-827d-316b0f67c61e",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n",
+                                "HTML": "\u003cdiv id=\"details\"\u003e\u003c/div\u003e\n\n\n",
+                                "JavaScript": "//JavaScript\nvar maxPerRow = 4;\nvar backgroundColor = \"green\";\nvar textColor = \"white\";\n\nvar displayOptionsForKey = {\n    \"broker_auth_port\": {\n        \"displayName\": \"Broker Auth Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n    },\n    \"broker_port\": {\n        \"displayName\": \"Broker Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n    },\n    \"broker_tls_port\": {\n        \"displayName\": \"Broker TLS Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n    },\n    \"broker_ws_auth_port\": {\n    \t\"displayName\": \"Broker WS Auth Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n\t},\n    \"broker_ws_port\": {\n        \"displayName\": \"Broker WS Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n    },\n    \"broker_wss_port\": {\n        \"displayName\": \"Broker WSS Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n    },\n    \"communication_style\": {\"ignore\": true},\n    \"description\": {\n        \"displayName\": \"Description\",\n        \"displayIfEmpty\": false,\n        \"group\": \"base\"\n    },\n    \"edge_key\": {\"ignore\": true},\n    \"first_talked\": {\"ignore\": true},\n    \"isConnected\": {\"ignore\": true},\n    \"last_seen_version\": {\n        \"displayName\": \"Version\",\n        \"displayIfEmpty\": true,\n        \"group\": \"base\"\n    },\n    \"last_talked\": {\"ignore\": true},\n    \"local_addr\": {\n        \"displayName\": \"Address\",\n        \"displayIfEmpty\": true,\n        \"icon\": \"language\",\n        \"group\": \"base\"\n    },\n    \"local_port\": {\n        \"displayName\": \"Port\",\n        \"displayIfEmpty\": true,\n        \"group\": \"ports\"\n    },\n    \"location\": {\n        \"displayName\": \"Location\",\n        \"displayIfEmpty\": false,\n        \"group\": \"base\",\n        \"icon\": \"'fa fa-map-marker'\"\n    },\n    \"mac_address\": {\n        \"displayName\": \"MAC Address\",\n        \"displayIfEmpty\": false,\n        \"group\": \"base\",\n        \"ignore\": true\n    },\n    \"name\": {\"ignore\": true},\n    \"novi_system_key\": {\"ignore\": true},\n    \"policy_name\": {\"ignore\": true},\n    \"public_addr\": {\n        \"displayName\": \"Public Address\",\n        \"displayIfEmpty\": false,\n        \"icon\": \"'fa fa-globe'\",\n        \"group\": \"base\"\n    },\n    \"public_port\": {\n        \"displayName\": \"Public Port\",\n        \"displayIfEmpty\": false,\n        \"group\": \"ports\"\n    },\n    \"resolver_func\": {\"ignore\": true},\n    \"sync_edge_tables\": {\"ignore\": true},\n    \"system_key\": {\"ignore\": true},\n    \"system_secret\": {\"ignore\": true}\n};\n\nvar that = this;\nvar container = $(\"\u003cdiv\u003e\");\n\nfunction buildGroup(groupKey, groupDisplayName, stylingForItems) {\n    var group = $(\"\u003cdiv\u003e\").html(groupDisplayName).css({\"font-size\": \"15px\"});\n    var table = $(\"\u003ctable\u003e\").css({\"width\":\"100%\",\"border-spacing\": \"5px\", \"border-collapse\": \"separate\"});\n    \n    var numOfItems = 0;\n    var row = $(\"\u003ctr\u003e\");\n    \n    //lets loop through all props provided via datasource\n    $.each(that.datasource, function (propName, value) {\n        //first check group\n        if (propName in displayOptionsForKey) {\n            if (!displayOptionsForKey[propName].ignore) {\n                if (displayOptionsForKey[propName].group === groupKey) {\n                    //see if we need to make a new row\n                    if (numOfItems \u003e 0 \u0026\u0026 numOfItems % maxPerRow === 0) {\n                        //append the existing row\n                        table.append(row);\n                        row = $(\"\u003ctr\u003e\");\n                    }\n                    var dispVal = \"\";\n                    if (that.datasource[propName] !== undefined \u0026\u0026 that.datasource[propName] !== null \u0026\u0026 that.datasource[propName] !== \"undefined\") {\n                        dispVal = that.datasource[propName];\n                    }\n                    var cell = $(\"\u003ctd\u003e\").html(displayOptionsForKey[propName].displayName + \": \" + dispVal);\n                    cell.css(stylingForItems);\n                    if (displayOptionsForKey[propName].icon) {\n                        cell.append($(\"\u003ci class=\" + displayOptionsForKey[propName].icon + \" aria-hidden='true'\u003e\u003c/i\u003e\").css(\"float\", \"right\"));\n                    }\n                    row.append(cell);\n                    numOfItems++;\n                }\n            }\n        } else {\n            //no options defined, treat as custom\n            if (groupKey === \"custom\") {\n                if (numOfItems \u003e 0 \u0026\u0026 numOfItems % maxPerRow === 0) {\n                    //append the existing row\n                    table.append(row);\n                    row = $(\"\u003ctr\u003e\");\n                }\n                var cell = $(\"\u003ctd\u003e\").html(propName + \": \" + that.datasource[propName]);\n                cell.css(stylingForItems);\n                row.append(cell);\n                numOfItems++;\n            }\n        }\n    });\n    \n    table.append(row);\n    group.append(table);\n    return group;\n}\n\ncontainer.append(buildGroup(\"base\", \"\u003ci class='fa fa-info-circle' aria-hidden='true' style='margin-right:5px;'\u003e\u003c/i\u003eDetails\", {\"padding\": \"10px\", \"font-size\": \"16px\", \"border-radius\": \"10px\", \"border\": \"1px solid black\"}));\ncontainer.append(buildGroup(\"ports\", \"\u003ci class='fa fa-share-alt' aria-hidden='true' style='margin-right:5px;'\u003e\u003c/i\u003ePorts\", {\"padding\": \"10px\", \"font-size\": \"16px\", \"border-radius\": \"10px\", \"background-color\": \"#6E8592\", \"color\": \"white\"}));\ncontainer.append(buildGroup(\"custom\", \"\u003ci class='fa fa-wrench' aria-hidden='true' style='margin-right:5px;'\u003e\u003c/i\u003eCustom\", {\"padding\": \"10px\", \"font-size\": \"16px\", \"border-radius\": \"10px\", \"background-color\": \"#4A4A4A\", \"color\": \"white\"}));\n\n\nconst details = document.getElementById('details');\nif (details.hasChildNodes()) {\n    details.innerHTML = '';\n    details.append(container[0])\n} else {\n    details.append(container[0])\n}\n"
+                            }
+                        }
+                    },
+                    "id": "46f52d56-e9d1-4243-be65-e4fe09401e54",
+                    "incoming_parser": {
+                        "isDebugOn": false,
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch2\u003eHTML Widget\u003c/h2\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "c25fb8d5-5bea-4cd2-ba72-071d2925daae",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "3dbbc7d1-46ee-4011-9dc6-b24f94542ee3": {
+                "externalScripts": [],
+                "id": "3dbbc7d1-46ee-4011-9dc6-b24f94542ee3",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "\n",
+                            "HTML": "\u003cdiv class=\"text-center\"\u003e\n  \u003ch2\u003e\u003ci class=\"fa fa-floppy-o\" aria-hidden=\"true\" style=\"margin-right:10px;\"\u003e\u003c/i\u003eMemory Usage(%)\u003c/h2\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "dcec67b3-c222-4309-9e79-e4b2c57c8774",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "6655330b-c98c-4126-860b-f20daab7a88e": {
+                "externalScripts": [],
+                "id": "6655330b-c98c-4126-860b-f20daab7a88e",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "cells": [
+                        {
+                            "fill": "#6E8592"
+                        },
+                        {
+                            "fill": "#c2c2c2"
+                        }
+                    ],
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "const edgeMetrics = this.datasource;\nlet edge_key;\nfor (let prop in edgeMetrics[\"history\"]) {\n    edge_key = prop;\n}\nif (edge_key) {\n    const memUsed = edgeMetrics.stats[edge_key][\"memUsed(%)\"] ;\n    \n    return [{'name': 'memUsed(%)', 'data': memUsed}, {'name': 'memAvailable(%)', 'data': 100 - memUsed}];\n}"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "innerRadius": 0,
+                    "showLabel": false,
+                    "showTooltip": true
+                },
+                "tab": "dcec67b3-c222-4309-9e79-e4b2c57c8774",
+                "type": "PIE_CHART_WIDGET_COMPONENT"
+            },
+            "7b4d8561-6de3-4bf1-996e-ec6e288fa801": {
+                "externalScripts": [],
+                "id": "7b4d8561-6de3-4bf1-996e-ec6e288fa801",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "backgroundColor": "#c2c2c2",
+                    "label": "",
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "progressColor": "#6e8592",
+                    "value": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "const edgeMetrics = this.datasource;\nlet edge_key;\nfor (let prop in edgeMetrics[\"history\"]) {\n    edge_key = prop;\n}\nif (edge_key) {\n    return Math.round(parseFloat(edgeMetrics.stats[edge_key][\"cpu(%)\"]));\n}"
+                        }
+                    }
+                },
+                "tab": "306ea7ca-0351-4234-85eb-e1963ddbc5bf",
+                "type": "RADIAL_GAUGE_WIDGET_COMPONENT"
+            },
+            "7b77ccaa-b3ed-4279-9123-15a08fb02d9c": {
+                "externalScripts": [],
+                "id": "7b77ccaa-b3ed-4279-9123-15a08fb02d9c",
+                "props": {
+                    "dataType": "DYNAMIC_DATA_TYPE",
+                    "force_data": [
+                        "STATIC_DATA_TYPE",
+                        "DYNAMIC_DATA_TYPE"
+                    ],
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "5df1426c-8e32-4d5f-827d-316b0f67c61e",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": ".container {\n    text-align: center;\n}\n\n.edge {\n    font-size: 20px;\n}\n\n#name {\n    text-align: center;\n    font-size: 45px;\n    display: inline-block;\n}\n",
+                                "HTML": "\u003cdiv class=\"container\"\u003e\n    \u003cspan class=\"edge\"\u003e\n        Edge:\n    \u003c/span\u003e\n    \u003ch2 id=\"name\"\u003e\u003c/h2\u003e\n\u003c/div\u003e\n",
+                                "JavaScript": "// JavaScript\nconst edgeName = document.getElementById('name');\nconst text = document.createTextNode(this.datasource.name);\n\nif(!edgeName.hasChildNodes()) {\n    edgeName.appendChild(text);\n} else {\n    edgeName.innerHTML = '';\n    edgeName.appendChild(text);\n}\n\n"
+                            }
+                        }
+                    },
+                    "id": "46f52d56-e9d1-4243-be65-e4fe09401e54",
+                    "incoming_parser": {
+                        "isDebugOn": false,
+                        "value": {
+                            "CSS": ".underline {\n  text-decoration: underline;\n}\n",
+                            "HTML": "\u003cdiv class=\"text-center underline\"\u003e\n  \u003ch2\u003eHTML Widget\u003c/h2\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "fcb84a0e-5b22-462f-bb77-c7883b1caf78",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "89f5bfd6-08bf-4b15-abb8-948f1def9e26": {
+                "externalScripts": [],
+                "id": "89f5bfd6-08bf-4b15-abb8-948f1def9e26",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "\n",
+                            "HTML": "\u003cdiv class=\"text-center\"\u003e\n  \u003ch2\u003e\u003ci class=\"fa fa-server\" aria-hidden=\"true\" style=\"margin-right:10px;\"\u003e\u003c/i\u003eDisk Usage(GB)\u003c/h2\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "9c064df8-f032-4655-ac2e-1486356081e7": {
+                "externalScripts": [],
+                "id": "9c064df8-f032-4655-ac2e-1486356081e7",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "cells": [
+                        {
+                            "fill": "#6e8592"
+                        },
+                        {
+                            "fill": "#c2c2c2"
+                        }
+                    ],
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": null,
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "const edgeMetrics = this.datasource;\nlet edge_key;\nfor (var prop in edgeMetrics[\"history\"]) {\n    edge_key = prop || null;\n}\nif(edge_key) {\n    const diskFree = edgeMetrics.stats[edge_key][\"diskFree(GB)\"]\n    const totalDisk = edgeMetrics.stats[edge_key][\"totalDisk(GB)\"]\n    const diskAvail = totalDisk - diskFree;\n    \n    return [{\"name\": \"diskUsed(GB)\", \"data\": diskAvail}, {\"name\": \"diskAvailable(GB)\", \"data\": diskFree}];\n}"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "innerRadius": 0,
+                    "showLabel": false,
+                    "showTooltip": true
+                },
+                "tab": "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b",
+                "type": "PIE_CHART_WIDGET_COMPONENT"
+            },
+            "9edf09f7-39c4-4914-b01c-6b8831ee8878": {
+                "externalScripts": [],
+                "id": "9edf09f7-39c4-4914-b01c-6b8831ee8878",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n",
+                                "HTML": "\u003cdiv id=\"stderr\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nlet edge_key;\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop\n}\n\nif (edge_key) {\n    const stderr = document.getElementById('stderr')\n    if (stderr.hasChildNodes()) {\n        stderr.innerHTML = '';\n        stderr.append(this.datasource.logs[edge_key].stderr)\n    } else {\n        stderr.append(this.datasource.logs[edge_key].stderr);\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "129851f4-e531-447c-bdd9-563e554865e8",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "aa7fede0-de7c-4dd8-a914-cab5c22ea91c": {
+                "externalScripts": [],
+                "id": "aa7fede0-de7c-4dd8-a914-cab5c22ea91c",
+                "props": {
+                    "html": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        },
+                        "value": {
+                            "CSS": "\n",
+                            "HTML": "\u003cdiv class=\"text-center\"\u003e\n  \u003ch2\u003e\u003ci class=\"fa fa-microchip\" aria-hidden=\"true\" style=\"margin-right:10px\"\u003e\u003c/i\u003eCPU Usage(%)\u003c/h2\u003e\n\u003c/div\u003e\n",
+                            "JavaScript": "//JavaScript\n"
+                        }
+                    }
+                },
+                "tab": "306ea7ca-0351-4234-85eb-e1963ddbc5bf",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "ae88e7a3-c0a9-4c52-bf74-f5e8e0b597f7": {
+                "externalScripts": [],
+                "id": "ae88e7a3-c0a9-4c52-bf74-f5e8e0b597f7",
+                "props": {
+                    "html": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "STATIC_DATA_TYPE",
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": {
+                                "CSS": "\n",
+                                "HTML": "\u003cdiv id=\"db\"\u003e\u003c/div\u003e\n",
+                                "JavaScript": "//JavaScript\nlet edge_key;\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop;\n}\n\nif (edge_key) {\n    const numDBConns = this.datasource.dbconns ? this.datasource.dbconns[edge_key].length : 0;\n    \n    const container = $(\"\u003cdiv style='margin-top: auto; margin-bottom: auto; height: 100%; padding:5px'\u003e\u003c/div\u003e\");\n    container.append($(\"\u003ch2\u003e\u003ci class='fa fa-exchange' aria-hidden='true' style='margin-right:10px;'\u003e\u003c/i\u003eDB Connections\u003c/h2\u003e\").css({\"text-align\": \"center\"}).addClass(\"section-title\"));\n    container.append($(\"\u003cdiv\u003e\").html(numDBConns).css({\"text-align\": \"center\", \"font-size\": \"80px\",\"padding-top\": \"30px\"}));\n    \n    const db = document.getElementById('db');\n    if (db.hasChildNodes()) {\n        db.innerHTML = '';\n        db.append(container[0])\n    } else {\n        db.append(container[0])\n    }\n}"
+                            }
+                        }
+                    }
+                },
+                "tab": "295fdd95-b468-44bc-b746-7b8e7dad0aa7",
+                "type": "HTML_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "Select Edge"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "d3e122e6-d9d6-4502-aac8-05d4dccb72bb": {
+                "externalScripts": [],
+                "id": "d3e122e6-d9d6-4502-aac8-05d4dccb72bb",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "brushStroke": "#6e8592",
+                    "chartData": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "49000dcb-335d-49cc-ab34-2fe3650fad0a",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "// default - return the value for the datasource \nlet edge_key;\nfor (let prop in this.datasource[\"history\"]) {\n    edge_key = prop\n}\n\nif (this.datasource.history[edge_key]) {\n    var diskHistory = this.datasource.history[edge_key][\"diskFree(GB)\"];\n    var totalDisk = this.datasource.history[edge_key][\"totalDisk(GB)\"];\n\n    var output = [];\n\n    $.each(diskHistory, function (propName, value) {\n        var obj = {\n            timestamp: propName,\n            diskUsed: value\n        };\n        output.push(obj);\n    });\n\n    return output;\n}\n\n"
+                        }
+                    },
+                    "chartMarginBottom": 0,
+                    "chartMarginLeft": 0,
+                    "chartMarginRight": 0,
+                    "chartMarginTop": 0,
+                    "legendColor": "#000000",
+                    "legendHorizontalAlign": "center",
+                    "legendIconType": "square",
+                    "legendLayout": "horizontal",
+                    "legendVerticalAlign": "bottom",
+                    "lineColors": [
+                        {
+                            "stroke": "#6e8592"
+                        }
+                    ],
+                    "lines": [
+                        {
+                            "dataKey": "diskUsed",
+                            "legendType": "star",
+                            "name": "",
+                            "type": "monotone",
+                            "yAxisId": ""
+                        }
+                    ],
+                    "referenceLines": [],
+                    "showBrush": false,
+                    "showDots": false,
+                    "showGrid": true,
+                    "showHorizontalGrid": true,
+                    "showLegend": true,
+                    "showTooltip": true,
+                    "showVerticalGrid": true,
+                    "xAxisDataKey": "timestamp",
+                    "xAxisLabel": "",
+                    "xAxisOrientation": "bottom",
+                    "xAxisPaddingLeft": 0,
+                    "xAxisPaddingRight": 0,
+                    "yAxes": [
+                        {
+                            "orientation": "left"
+                        }
+                    ]
+                },
+                "tab": "0e6a2755-91c7-4cbf-bf11-8cb1b59d4b0b",
+                "type": "LINE_CHART_WIDGET_COMPONENT"
+            },
+            "f78c0825-55bc-438c-802c-96baa21b854c": {
+                "externalScripts": [],
+                "id": "f78c0825-55bc-438c-802c-96baa21b854c",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "allowSearch": true,
+                    "displayAttribute": "name",
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "5df1426c-8e32-4d5f-827d-316b0f67c61e",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "// programatically update edge metrics datasource on select\nconst edgeMetrics = datasources[\"selectedEdgeMetrics\"];\nedgeMetrics.settings().EDGE_NAME = this.widget.name;\nedgeMetrics.settingsChanged();\n\nreturn this.widget;"
+                        }
+                    },
+                    "groupByAttributes": [
+                        "state",
+                        "city",
+                        null
+                    ],
+                    "listSource": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE",
+                            "STATIC_DATA_TYPE"
+                        ],
+                        "id": "46f52d56-e9d1-4243-be65-e4fe09401e54",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return this.datasource;"
+                        }
+                    },
+                    "listTitle": "Select Edge",
+                    "statusAttribute": "isConnected"
+                },
+                "tab": null,
+                "type": "GROUPING_LIST_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return 'ClearBlade ' + portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": "",
+    "last_updated": "24 Jul 18 10:26 CDT",
+    "name": "coolPortal",
+    "system_key": "9283bab50b8a8d8b83e093dcd6f801",
+    "type": "edge_monitoring_v2"
+}
