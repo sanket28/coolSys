@@ -1,0 +1,16 @@
+{
+    "assets": [
+        {
+            "asset_class": "services",
+            "asset_id": "",
+            "deployment": "test",
+            "member": "test_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "",
+    "edges": [
+        "cool1"
+    ],
+    "name": "test"
+}
